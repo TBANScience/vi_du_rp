@@ -1,2 +1,3 @@
 library(tidyverse)
-as_tibble(mtcars)
+d <- as_tibble(mtcars)
+d
