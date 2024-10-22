@@ -8,3 +8,7 @@ str(data)
 View(data)
 glimpse(data)
 head(data)
+names(data)
+data %>% 
+  dplyr::filter(Country == "Oman") %>% 
+  head()
